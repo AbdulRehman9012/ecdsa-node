@@ -1,13 +1,12 @@
 ## ECDSA Node
 
-This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
+I have updated this project and changed it's light mode to dark mode.
 
-However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
+You have to provide private key of your account to transfer fund but don't worry your address is automatically founded and only shared with server not your private key. 
+And for transfer function you only had to provide address for receiver account.
 
-### Video instructions
-For an overview of this project as well as getting started instructions, check out the following video:
-
-https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
+PRIVATE KEYS OF THREE ALREADY SAVED ACCOUNTS IS SHARED AT THE LAST OF THIS FILE YOU CAN TRY THOSE ACCOUNTS.
+DON'T TRANSFER FUNDS IN THOSE ACCOUNT OF WHOM PRIVATE KEY IS NOT KNOWN.
  
 ### Client
 
@@ -29,3 +28,12 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically! 
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+
+PRIVATE_KEY : b426e500450d44a361ed353f082b152e8683fbaac6041d1a05bcb2d90f2d90a0
+ADDRESS : 73d19a8465dc336acca65e573a3335eda24687e8
+
+PRIVATE_KEY : c696c8c4b29373c3ba9cf77739d8b26347cb1b7062d3501778d9aedf37bb18ff
+ADDRESS : 6be7c1e90ff76b89c83052a44445feb3aecdf65d
+
+PRIVATE_KEY : 88db8d59d993cd6cf87e3bff110b61117fea7ed6a9524a9c16bc91b5fa3b5b3f
+ADDRESS : 9c3080ef83f27249af23a8943116c0491c5ce83e
